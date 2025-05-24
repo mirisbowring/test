@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  homebox:
+    image: ghcr.io/hay-kot/homebox:latest
+    container_name: homebox
+    restart: unless-stopped
+    ports:
+      - "7823:7745"
+    volumes:
+      - ./data:/data
+    environment:
+      - HBOX_LOG_LEVEL=info
+      - HBOX_WEB_PORT=7745
+      # oder via .env, z. B. POSTGRES_PASSWORD
