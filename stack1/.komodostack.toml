@@ -1,9 +1,11 @@
-name = "homebox"
-description = "Self-hosted Homebox inventory"
-path = "stack1/docker-compose.yml"
-branch = "main"
+[[stack]]
+name = "my-stack"
+description = "my super cool description"
+tags = ["media", "prod"]
+[stack.config]
+server = "unraid"
 auto_update = true
-
-# Optional: statische Umgebungsvariablen (wenn du keine .env verwendest)
-#[env]
-#HOMEBOX_SECRET = "supersecure"
+auto_update_all_services = true
+git_account = "mirisbowring"
+repo = "mirisbowring/test"
+run_directory = "stack1/"
