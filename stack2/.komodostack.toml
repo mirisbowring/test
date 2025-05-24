@@ -1,6 +1,6 @@
 name = "meine-app-2"
 description = "Mein Homelab Stack 2"
-path = "docker-compose.yml"
+path = "stack2/docker-compose.yml"
 branch = "main"
 auto_update = true
 
