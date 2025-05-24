@@ -1,9 +1,9 @@
-name = "meine-app"
-description = "Mein Homelab Stack"
-path = "docker-compose.yml"
+name = "homebox"
+description = "Self-hosted Homebox inventory"
+path = "apps/homebox/docker-compose.yml"
 branch = "main"
 auto_update = true
 
-[env]
-ENV1 = "value1"
-ENV2 = "value2"
+# Optional: statische Umgebungsvariablen (wenn du keine .env verwendest)
+#[env]
+#HOMEBOX_SECRET = "supersecure"
