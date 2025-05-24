@@ -1,8 +1,16 @@
+[[stack]]
 name = "meine-app-2"
 description = "Mein Homelab Stack 2"
-path = "stack2/docker-compose.yml"
+run_directory = "stack2/"
 branch = "main"
 auto_update = true
+
+[stack.config]
+server_id = "server-prod"
+git_provider = "github.com"
+git_account = "mirisbowring"
+repo = "mirisbowring/test"
+run_directory = "stack2/"
 
 [env]
 ENV1 = "value1"
