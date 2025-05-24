@@ -1,12 +1,11 @@
 [[stack]]
 name = "meine-app-2"
 description = "Mein Homelab Stack 2"
-run_directory = "stack2/"
 branch = "main"
 auto_update = true
 
 [stack.config]
-server_id = "server-prod"
+server_id = "unraid"
 git_provider = "github.com"
 git_account = "mirisbowring"
 repo = "mirisbowring/test"
