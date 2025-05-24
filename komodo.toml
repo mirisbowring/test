@@ -1,0 +1,6 @@
+[[server]]
+name = "unraid"
+[server.config]
+address = "https://periphery:8120"
+region = "Homelab-01"
+enabled = true
