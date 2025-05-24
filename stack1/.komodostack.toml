@@ -1,6 +1,6 @@
 name = "homebox"
 description = "Self-hosted Homebox inventory"
-path = "apps/homebox/docker-compose.yml"
+path = "stack1/docker-compose.yml"
 branch = "main"
 auto_update = true
 
